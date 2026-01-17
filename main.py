@@ -11,7 +11,7 @@ def webhook():
     numero = dados.get('sender') or dados.get('phone')
     
     if numero:
-        url = "https://api.z-api.io/instances/3ED56F6CCFB82334751CB6C5C732398F/token/948A09A8C22A436CAE0CD4C8/send-text"
+        url = https://api.z-api.io/instances/3ED56F6CCFB82334751CB6C5C732398F/token/94BA09A8C22A436CAE0CD4C6/send-text
         payload = {"phone": numero, "message": "NEXUS: Recebi seu sinal! 🦾"}
         
         # Envia e captura a resposta da Z-API
